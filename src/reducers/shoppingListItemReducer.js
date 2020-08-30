@@ -13,7 +13,7 @@ export default function shoppingListItemReducer(
 			return {
 				...state,
 				items: state.items.concat(state.items.length + 1)
-			}
+			};
 		default:
 			return state;
 	}
